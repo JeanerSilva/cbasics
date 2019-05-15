@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compila o First.c e demais",
+            "type": "shell",
+            "command": "C:/MinGW/bin/gcc.exe",
+            "args": [
+                "first.c",
+                "foo.c",
+                "-o",
+                "first.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Roda o First.exe",
+            "type": "shell",
+            "command": "C:/Users/usuario/Desktop/GCC/First/first.exe",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
