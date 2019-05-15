@@ -17,6 +17,5 @@ int main(int argc, char *argv[])
     iRetValue = (*pfAddTwoNumber)(10, 20); //Calling the function using function pointer
 
     printf("\n\nAddition of two number = %d\n\n", iRetValue);
-
     return 0;
 }
